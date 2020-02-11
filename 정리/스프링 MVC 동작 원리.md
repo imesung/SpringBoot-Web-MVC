@@ -127,3 +127,6 @@ public class EventService {
   - 로직의 흐름이 단번에 보이지않고, 내부적으로 들어가야 확인이 가능하다.
 - 코드 일관성 유지에 노력이 필요하다.
   - 네이밍, 패키지 추가 혹은 컨트롤러 추가에 대한 일관성 유지의 노력이 필요하다.
+  
+### 스프링 MVC Flow
+![image](https://user-images.githubusercontent.com/40616436/74245944-23ecb480-4d27-11ea-9ed2-0632eed7c02a.png)
