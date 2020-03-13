@@ -20,6 +20,6 @@ public class HelloController {
 
     @GetMapping("/sample")
     public String sample() {
-        return "/WEB-INF/sample.jsp";
+        return "sample";
     }
 }

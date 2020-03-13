@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c6b01c-ffde-4382-9faa-2284d6b6f303" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/SimpleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sample.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/simple.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" beforeDir="false" afterPath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/SimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/SimpleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +93,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="798" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581343864479" />
-    <state x="385" y="195" width="670" height="763" key="search.everywhere.popup" timestamp="1581344321531">
+    <state x="385" y="195" width="670" height="763" key="search.everywhere.popup" timestamp="1584114359883">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="195" width="670" height="763" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581344321531" />
+    <state x="385" y="195" width="670" height="763" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584114359883" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1581343988624" />
   </component>
 </project>
