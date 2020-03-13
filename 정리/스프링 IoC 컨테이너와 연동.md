@@ -9,6 +9,8 @@
 
 ### 서블릿에서 스프링이 제공하는 IoC 컨테이너 활용하는 방법
 
+***애플리케이션 컨텍스트를 서블릿 컨텍스트에 등록 후 IoC 컨테이너를 활용해보자.***
+
 - **pom.xml에 dependency 추가**
 
   ~~~xml
@@ -27,13 +29,11 @@
     </listener>
   ~~~
 
+  - ***ContextLoaderListener는 애플리케이션 컨텍스트를 만들어 서블릿 컨텍스트에 등록하는 역할을 한다.***
+
   - 애플리케이션 컨텍스트를 서블릿 애플리케이션의 생명주기에 맞춰서 바인딩 해주는 것이다.
 
-  - 등록되어 있는 서블릿이 사용될 수 있도록 **애플리케이션 컨텍스트를 만들어 서블릿 컨텍스트에 등록을 해준다.**
-
-  - 즉, 애플리케이션 컨텍스트를 만들어야 하므로, 스프링 설정 파일이 필요하다.
-
-    - Java 설정 파일을 사용해보자
+  - **등록되어 있는 서블릿이 사용될 수 있도록 ContextLoaderListener를 활용하여 애플리케이션 컨텍스트를 만들어 서블릿 컨텍스트에 등록을 해준다.**
 
     ~~~xml
     <listener>
@@ -45,15 +45,47 @@
       <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
     </context-param>
     
+    <!-- Java 설정 파일 위치 -->
     <context-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>com.mesung.AppConfig</param-value>
     </context-param>
     ~~~
 
-    - ContextLoaderListener가 **AnnotationConfigWebApplicationContext를 만들 때 ContextConfigLocation의 정보(빈 등록려는 패키지 위치)를 참고하여 만들게 된다.**
+    - **ContextLoaderListener**가 **AnnotationConfigWebApplicationContext를 만들 때 ContextConfigLocation의 정보(빈 등록려는 패키지 위치)를 참고하여 만들게 된다.**
 
-    
+      ~~~java
+      public class ContextLoaderListener extends ContextLoader implements ServletContextListener {
+         ...
+           
+          public void contextInitialized(ServletContextEvent event) {
+            //애플리케이션 컨텍스트 등록  
+           	this.initWebApplicationContext(event.getServletContext());
+          }
+      
+         ...
+      }
+      
+      
+      public class ContextLoader {
+        ...
+        public WebApplicationContext initWebApplicationContext(ServletContext servletContext) {
+        	...
+          //서블릿 컨텍스트에 애플리케이션 컨텍스트를 등록.  
+        	servletContext.setAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE, this.context);    
+      	}
+        ...
+      }
+      
+      ~~~
+
+      
+
+  
+
+  - **애플리케이션 컨텍스트를 만들 때는 스프링 설정 파일이 필요하므로 설정 파일을 따로 만들어야 한다.**
+
+    - ***Java 설정 파일을 사용해보자***
 
     ~~~java
     @Configuration
@@ -70,11 +102,11 @@
     }
     ~~~
 
-    - 그로인해, 그 애플리케이션 컨텍스트 안에는 우리가 설정한 HelloServie가 빈으로 등록되어 있는 것이다.
+    - 그로인해, **그 애플리케이션 컨텍스트 안에는 우리가 설정한 HelloService가 빈으로 등록되어 있는 것이다.**
 
     
 
-    - 또한, 애플리케이션 컨텍스트는 서블릿 컨텍스트에 등록을 하는데, 등록된 애플리케이션 컨텍스트를 꺼내오는 방법을 살펴보자
+    - 또한, **애플리케이션 컨텍스트는 서블릿 컨텍스트에 등록 되는데, 등록된 애플리케이션 컨텍스트를 꺼내오는 방법을 살펴보자**
 
       ~~~java
       @Override
@@ -91,5 +123,3 @@
       ~~~
 
       
-
-- 이어서 계속..
