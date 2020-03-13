@@ -4,7 +4,7 @@
 
 - HandlerMapping : 핸들러를 찾아주는 인터페이스
 - HandlerAdapter : 핸들러를 실행하는 인터페이스
-- ReturnValueHandlers
+- ReturnValueHandlers : return 값을 http 본문에 넣어주는 핸들러
 
 
 
@@ -33,6 +33,8 @@ protected HandlerExecutionChain getHandler(HttpServletRequest request) throws Ex
   return null;
 }
 ~~~
+
+
 
 
 
@@ -71,7 +73,10 @@ protected HandlerAdapter getHandlerAdapter(Object handler) throws ServletExcepti
 **ReturnValueHandlers**
 
 - 사용 핸들러 : RequestResponseBodyMethodProcessor
+
 - returnValueHandler : **컨버터를 사용해 리턴값을 http 본문에 넣어주는 역할을 한다.**
+
+  - **hello() 메소드는 @RestController에 의해 @ResponseBody로 인식하여 View 이름으로 확인되지 않아 ModelAndView는 Null이다.**
 
   ~~~java
   @RestController

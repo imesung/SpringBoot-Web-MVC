@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c6b01c-ffde-4382-9faa-2284d6b6f303" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/SimpleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sample.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/simple.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" beforeDir="false" afterPath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +43,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,10 +71,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="23" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581344959367" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1581349299941">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1584105888715">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581349299941" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584105888715" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1581353896749">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
