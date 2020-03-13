@@ -5,39 +5,22 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-  <context-param>
-    <param-name>contextClass</param-name>
-    <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
-  </context-param>
-
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>com.mesung.AppConfig</param-value>
-  </context-param>
-
-  <filter>
-    <filter-name>myFilter</filter-name>
-    <filter-class>com.mesung.MyFilter</filter-class>
-  </filter>
-
-  <filter-mapping>
-    <filter-name>myFilter</filter-name>
-    <servlet-name>hello</servlet-name>
-  </filter-mapping>
-
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-
-
   <servlet>
-    <servlet-name>hello</servlet-name>
-    <servlet-class>com.mesung.HelloServlet</servlet-class>
+    <servlet-name>app</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextClass</param-name>
+      <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContex</param-value>
+    </init-param>
+    <init-param>
+      <param-name>contextConfigLoaction</param-name>
+      <param-value>com.mesung.WebConfig</param-value>
+    </init-param>
   </servlet>
 
-  <servlet-mapping>
-    <servlet-name>hello</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
+  <servlet>
+    <servlet-name>app</servlet-name>
+    <servlet-class>/app/*</servlet-class>
+  </servlet>
 
 </web-app>
