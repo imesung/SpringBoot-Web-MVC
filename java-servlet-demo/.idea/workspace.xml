@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c6b01c-ffde-4382-9faa-2284d6b6f303" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-spring-mvc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리 정리.md" beforeDir="false" afterPath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리 정리.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
