@@ -1,0 +1,34 @@
+### 스프링 MVC 핵심 기술 소개
+
+**애노테이션 기반의 스프링 MVC**
+
+- 요청 맵핑하기
+- 핸들러 메소드
+- 모델과 뷰
+- 데이터 바인더
+- 예외 처리
+- 글로벌 컨트롤러
+
+
+
+사용할 기술
+
+- 스프링 부트
+- 스프링 프레임워크 웹 MVC
+- 타임리프
+
+
+
+학습 할 애노테이션
+
+- @RequestMapping
+  - @GetMapping, @PostMapping, @PutMapping...
+- @ModelAttribute
+- @RequestParam, @RequestHeader
+- @PathVariable, @MatrixVariable
+- @SessionAttribute, @RequestAttribute, @CookieValue
+- @Valid
+- @RequestBody, @ResponseBody
+- @ExceptionHandler
+- @ControllerAdvice
+
