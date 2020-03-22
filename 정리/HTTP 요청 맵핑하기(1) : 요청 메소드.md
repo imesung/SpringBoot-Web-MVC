@@ -5,7 +5,7 @@
 - GET, POST, PUT, PATCH, DELETE...
 
 
-
+## 
 **GET 요청**
 
 - 클라이언트가 서버의 리소스를 요청할 때 사용한다.
@@ -16,7 +16,7 @@
 - idempotent(동일한 요청은 항상 동일한 응답을 해야한다.)
 
 
-
+## 
 **POST 요청**
 
 - 클라이언트가 서버의 리소스를 수정하거나 새로 만들 때 사용한다.
@@ -28,7 +28,7 @@
 - idempotent하지 않는다.(동일한 요청은 항상 동일한 응답을 하지 않는다.)
 
 
-
+## 
 **PUT 요청**
 
 - URI에 해당하는 데이터를 새로 만들거나 수정할 때 사용한다.
@@ -38,21 +38,21 @@
 - idempotent(동일한 요청은 항상 동일한 응답을 해야한다.)
 
 
-
+## 
 **PATCH 요청**
 
 - PUT과 비슷하지만, 기존 엔티티와 새 데이터의 차이점만 보낸다는 차이가 있다.
 - idempotent(동일한 요청은 항상 동일한 응답을 해야한다.)
 
 
-
+## 
 **DELETE 요청**
 
 - URI에 해당하는 리소스를 삭제할  때 사용한다.
 - idempotent(동일한 요청은 항상 동일한 응답을 해야한다.)
 
 
-
+## 
 **명시되지 않은 HandlerMapping**
 
 - @RequestMapping에 HTTP Method가 명시되어 있지 않으면, GET, POST, PUT 등 모든 메소드에 매핑이 가능해진다.
@@ -98,7 +98,7 @@ public void helloTestPost() throws Exception {
 <img src="https://user-images.githubusercontent.com/40616436/77084602-87fb4a80-6a42-11ea-8915-bcd9ecbdd5e8.png" alt="image" style="zoom:50%;" />
 
 
-
+## 
 **명시된 HandlerMapping**
 
 - @RequestMapping에 HTTP Method를 명시해보자.
@@ -154,7 +154,7 @@ public void helloTestPost() throws Exception {
   <img src="https://user-images.githubusercontent.com/40616436/77085749-1f14d200-6a44-11ea-8566-c7baceea6f30.png" alt="image" style="zoom:50%;" />
 
 
-
+## 
 **다중으로 메소드를 명시한 HandlerMapping**
 
 ~~~java
@@ -170,7 +170,7 @@ public class SampleController {
 ~~~
 
 
-
+## 
 **테스트 소스를 간략히 살펴보자**
 
 - 간단히 작성한 controller의 hello() 메소드를 테스트 해보자
