@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="89c6b01c-ffde-4382-9faa-2284d6b6f303" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(2).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(3).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/서블릿 리스너와 필터.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/서블릿 소개.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/서블릿 애플리케이션 개발.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 IoC 컨테이너와 연동.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 구성 요소.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리 정리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 빈 설정.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 연동.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
