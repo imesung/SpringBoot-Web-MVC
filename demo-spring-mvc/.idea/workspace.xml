@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dbfb77-973b-4b11-87c0-0463a9bb1b74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesung/demospringmvc/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-servlet-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-servlet-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-servlet-demo/src/main/java/com/mesung/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-servlet-demo/src/main/java/com/mesung/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정리/2-1. @EnableWebMvc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../정리/2-1. @EnableWebMvc.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +42,14 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo-spring-mvc" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,7 +57,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XUB10hBmc0jvpqRiOaRUFvUnKJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,7 +73,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -136,26 +154,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1581095532961">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586190616358">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581095532961" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1581095532959">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586190616358" />
+    <state width="1398" height="269" key="GridCell.Tab.0.bottom" timestamp="1586190178818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581095532959" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1581095532959">
+    <state width="1398" height="269" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586190178818" />
+    <state width="1398" height="387" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586185307440" />
+    <state width="1398" height="269" key="GridCell.Tab.0.center" timestamp="1586190178817">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581095532959" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1581095532960">
+    <state width="1398" height="269" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586190178817" />
+    <state width="1398" height="387" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1586185307440" />
+    <state width="1398" height="269" key="GridCell.Tab.0.left" timestamp="1586190178816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581095532960" />
-    <state x="212" y="23" key="SettingsEditor" timestamp="1581094968311">
+    <state width="1398" height="269" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586190178816" />
+    <state width="1398" height="387" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1586185307439" />
+    <state width="1398" height="269" key="GridCell.Tab.0.right" timestamp="1586190178818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="212" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581094968311" />
+    <state width="1398" height="269" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586190178818" />
+    <state width="1398" height="387" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1586185307526" />
+    <state width="1398" height="269" key="GridCell.Tab.1.bottom" timestamp="1586190178821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="269" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586190178821" />
+    <state width="1398" height="387" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586185307442" />
+    <state width="1398" height="269" key="GridCell.Tab.1.center" timestamp="1586190178820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="269" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586190178820" />
+    <state width="1398" height="387" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1586185307441" />
+    <state width="1398" height="269" key="GridCell.Tab.1.left" timestamp="1586190178819">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="269" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586190178819" />
+    <state width="1398" height="387" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1586185307441" />
+    <state width="1398" height="269" key="GridCell.Tab.1.right" timestamp="1586190178820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="269" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586190178820" />
+    <state width="1398" height="387" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1586185307442" />
+    <state x="212" y="23" key="SettingsEditor" timestamp="1586190249273">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="212" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586190249273" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581091057872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -168,5 +214,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1581092096138" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586191174789">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586191174789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.9.RELEASE/e964447d023bdb67bcf8b5d473cf8a4948ba953b/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>909</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
