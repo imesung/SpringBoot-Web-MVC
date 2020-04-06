@@ -27,6 +27,7 @@ public class WebConfig {
     @Bean
     public HandlerAdapter handlerAdapter() {
         RequestMappingHandlerAdapter handlerAdapter = new RequestMappingHandlerAdapter();
+        handlerAdapter.setArgumentResolvers(handlerAdapter.getCustomArgumentResolvers());
         return handlerAdapter;
     }
 
