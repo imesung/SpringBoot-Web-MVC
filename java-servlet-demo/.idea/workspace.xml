@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89c6b01c-ffde-4382-9faa-2284d6b6f303" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesung/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(1).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(2).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/DispatcherServlet 동작원리(3).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/서블릿 리스너와 필터.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/서블릿 소개.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/서블릿 애플리케이션 개발.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 IoC 컨테이너와 연동.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 구성 요소.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리 정리.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 동작 원리.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 빈 설정.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../정리/스프링 MVC 연동.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +67,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="23" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581344959367" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1584455482028">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586183458809">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584455482028" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586183458809" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1581353896749">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -104,6 +91,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="798" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581343864479" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1586183357395">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1586183357395" />
     <state x="385" y="195" width="670" height="763" key="search.everywhere.popup" timestamp="1586176408011">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
